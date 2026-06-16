@@ -78,7 +78,7 @@ export const projects: Project[] = [
     stack: ["Python", "LLM", "Llama 3.3"],
     icon: Bot,
     link: "https://www.linkedin.com/posts/jo%C3%A3o-carlos-damacena-4724232aa_python-backend-ia-activity-7460396738793713664-Irhq?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEp1CNYBr_7EmjcoH3Q_UZgGUgqDn_eCJ_w", 
-    image: "/public/image.jpg", 
+    image: "/image.jpg", 
   },
   {
     title: "Buscador de CEP em Java",
@@ -87,7 +87,7 @@ export const projects: Project[] = [
     stack: ["Java", "REST", "JSON"],
     icon: MapPin,
     link: "https://www.linkedin.com/posts/jo%C3%A3o-carlos-damacena-4724232aa_java-desenvolvimento-backend-activity-7458517882382151680-WjCw?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEp1CNYBr_7EmjcoH3Q_UZgGUgqDn_eCJ_w",
-    image: "/public/image (1).jpg", 
+    image: "/image (1).jpg", 
   },
   {
     title: "Dashboard de Hábitos (VBA)",
@@ -96,7 +96,7 @@ export const projects: Project[] = [
     stack: ["VBA", "Excel", "Automação"],
     icon: BarChart3,
     link: "https://www.linkedin.com/posts/jo%C3%A3o-carlos-damacena-4724232aa_excel-vba-macros-activity-7427869536223137792-1WOm?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEp1CNYBr_7EmjcoH3Q_UZgGUgqDn_eCJ_w",
-    image: "/public/image (2).jpg",
+    image: "/image (2).jpg",
   },
   {
     title: "Sistemas OO em Java",
@@ -105,7 +105,7 @@ export const projects: Project[] = [
     stack: ["Java", "POO", "Arquitetura"],
     icon: Boxes,
     link: "https://www.linkedin.com/posts/jo%C3%A3o-carlos-damacena-4724232aa_finalizei-dois-projetos-em-java-com-foco-activity-7430068354960347137-IAhm?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEp1CNYBr_7EmjcoH3Q_UZgGUgqDn_eCJ_w",
-    image: "/public/image (3).jpg", 
+    image: "/image (3).jpg", 
   },
 ];
 
