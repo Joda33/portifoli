@@ -11,7 +11,7 @@ import {
 
 export const profile = {
   name: "João Carlos Damacena",
-  role: "Desenvolvedor Back-end | DevSecOps | Integração de APIs | Segurança de Aplicações",
+  role: "Desenvolvedor Back-end | DevSecOps em Formação | Ex-Atleta de Alto Rendimento",
   location: "São Paulo — SP, Brasil",
   email: "jocagoda070307@gmail.com",
   github: "https://github.com/Joda33",
@@ -38,54 +38,25 @@ export const techCategories: TechCategory[] = [
   {
     title: "Linguagens",
     icon: Code2,
-    items: [
-      "Java",
-      "Python",
-      "TypeScript",
-      "SQL",
-      "Deluge",
-      "VBA"
-    ],
+    items: ["Java", "Python", "VBA"],
     span: "md:col-span-2",
   },
   {
-    title: "Back-end & APIs",
-    icon: Database,
-    items: [
-      "Spring Boot",
-      "Flask",
-      "REST APIs",
-      "OAuth",
-      "JSON",
-      "Zoho Creator"
-    ],
+    title: "Back-end",
+    icon: Code2,
+    items: ["Spring Boot", "APIs REST", "JSON"],
     span: "md:col-span-2",
   },
   {
-    title: "DevSecOps",
+    title: "Segurança",
     icon: ShieldCheck,
-    items: [
-      "Docker",
-      "GitHub Actions",
-      "Bandit",
-      "Pip-audit",
-      "OWASP ZAP",
-      "CI/CD"
-    ],
+    items: ["OWASP", "AppSec", "Linux", "Redes"],
     span: "md:col-span-2",
   },
   {
     title: "Ferramentas",
     icon: Database,
-    items: [
-      "Git",
-      "GitHub",
-      "Linux",
-      "Postman",
-      "BrasilAPI",
-      "PagHiper",
-      "Zoho Bigin"
-    ],
+    items: ["Git", "GitHub", "Docker", "CI/CD"],
     span: "md:col-span-2",
   },
 ];
@@ -178,13 +149,8 @@ export const projects: Project[] = [
       "Llama 3.3",
     ],
     icon: Bot,
-<<<<<<< HEAD
-    link: "https://www.linkedin.com/posts/jo%C3%A3o-carlos-damacena-4724232aa_python-backend-ia-activity-7460396738793713664-Irhq?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEp1CNYBr_7EmjcoH3Q_UZgGUgqDn_eCJ_w", 
-    image: "/image.jpg", 
-=======
     link: "https://www.linkedin.com/posts/jo%C3%A3o-carlos-damacena-4724232aa_python-backend-ia-activity-7460396738793713664-Irhq?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEp1CNYBr_7EmjcoH3Q_UZgGUgqDn_eCJ_w",
     image: "/image.jpg",
->>>>>>> 061f337 (Atualiza portfólio com novos projetos e melhorias)
   },
 
   {
@@ -198,32 +164,12 @@ export const projects: Project[] = [
     ],
     icon: MapPin,
     link: "https://www.linkedin.com/posts/jo%C3%A3o-carlos-damacena-4724232aa_java-desenvolvimento-backend-activity-7458517882382151680-WjCw?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEp1CNYBr_7EmjcoH3Q_UZgGUgqDn_eCJ_w",
-<<<<<<< HEAD
-    image: "/image (1).jpg", 
-=======
     image: "/image (1).jpg",
->>>>>>> 061f337 (Atualiza portfólio com novos projetos e melhorias)
   },
 
   {
     title: "Projetos Orientados a Objetos em Java",
     description:
-<<<<<<< HEAD
-      "Automação completa em Excel/VBA para registro, acompanhamento e análise de hábitos com gráficos dinâmicos.",
-    stack: ["VBA", "Excel", "Automação"],
-    icon: BarChart3,
-    link: "https://www.linkedin.com/posts/jo%C3%A3o-carlos-damacena-4724232aa_excel-vba-macros-activity-7427869536223137792-1WOm?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEp1CNYBr_7EmjcoH3Q_UZgGUgqDn_eCJ_w",
-    image: "/image (2).jpg",
-  },
-  {
-    title: "Sistemas OO em Java",
-    description:
-      "Conjunto de projetos aplicando POO, SOLID e padrões de arquitetura para sistemas modulares e testáveis.",
-    stack: ["Java", "POO", "Arquitetura"],
-    icon: Boxes,
-    link: "https://www.linkedin.com/posts/jo%C3%A3o-carlos-damacena-4724232aa_finalizei-dois-projetos-em-java-com-foco-activity-7430068354960347137-IAhm?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEp1CNYBr_7EmjcoH3Q_UZgGUgqDn_eCJ_w",
-    image: "/image (3).jpg", 
-=======
       "Coleção de aplicações utilizando Programação Orientada a Objetos, SOLID e arquitetura modular para desenvolvimento de sistemas escaláveis.",
     stack: [
       "Java",
@@ -247,22 +193,10 @@ export const projects: Project[] = [
     icon: BarChart3,
     link: "https://www.linkedin.com/posts/jo%C3%A3o-carlos-damacena-4724232aa_excel-vba-macros-activity-7427869536223137792-1WOm?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEp1CNYBr_7EmjcoH3Q_UZgGUgqDn_eCJ_w",
     image: "/image (2).jpg",
->>>>>>> 061f337 (Atualiza portfólio com novos projetos e melhorias)
   },
 ];
 
 export const certifications = [
-  {
-    name: "Hackers do Bem",
-    issuer: "Softex / MCTI",
-    items: [
-      "DevSecOps",
-      "Segurança Cibernética",
-      "Linux",
-      "Redes",
-      "Pentest",
-    ],
-  },
   {
     name: "Cisco Networking Academy",
     issuer: "Cisco",
@@ -270,17 +204,24 @@ export const certifications = [
       "Introduction to Cybersecurity",
       "Network Defense",
       "CCNA: Introduction to Networks",
-      "Endpoint Security",
     ],
   },
   {
-    name: "Alura",
+    name: "Hackers do Bem",
+    issuer: "Softex / MCTI",
+    items: [
+      "Fundamentos de Segurança Cibernética",
+      "Nivelamento em Redes e Linux",
+      "DevSecOps",
+    ],
+  },
+  {
+    name: "Formações Alura",
     issuer: "Alura",
     items: [
       "AppSec",
-      "Java",
+      "Java Orientado a Objetos",
       "Git e GitHub",
-      "Spring Boot",
       "Arquitetura de Computadores",
     ],
   },
