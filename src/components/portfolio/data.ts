@@ -11,7 +11,7 @@ import {
 
 export const profile = {
   name: "João Carlos Damacena",
-  role: "Desenvolvedor Back-end | DevSecOps em Formação | Ex-Atleta de Alto Rendimento",
+  role: "Desenvolvedor Back-end | DevSecOps | Integração de APIs | Segurança de Aplicações",
   location: "São Paulo — SP, Brasil",
   email: "jocagoda070307@gmail.com",
   github: "https://github.com/Joda33",
@@ -38,25 +38,54 @@ export const techCategories: TechCategory[] = [
   {
     title: "Linguagens",
     icon: Code2,
-    items: ["Java", "Python", "VBA"],
+    items: [
+      "Java",
+      "Python",
+      "TypeScript",
+      "SQL",
+      "Deluge",
+      "VBA"
+    ],
     span: "md:col-span-2",
   },
   {
-    title: "Back-end",
-    icon: Code2,
-    items: ["Spring Boot", "APIs REST", "JSON"],
+    title: "Back-end & APIs",
+    icon: Database,
+    items: [
+      "Spring Boot",
+      "Flask",
+      "REST APIs",
+      "OAuth",
+      "JSON",
+      "Zoho Creator"
+    ],
     span: "md:col-span-2",
   },
   {
-    title: "Segurança",
+    title: "DevSecOps",
     icon: ShieldCheck,
-    items: ["OWASP", "AppSec", "Linux", "Redes"],
+    items: [
+      "Docker",
+      "GitHub Actions",
+      "Bandit",
+      "Pip-audit",
+      "OWASP ZAP",
+      "CI/CD"
+    ],
     span: "md:col-span-2",
   },
   {
     title: "Ferramentas",
     icon: Database,
-    items: ["Git", "GitHub", "Docker", "CI/CD"],
+    items: [
+      "Git",
+      "GitHub",
+      "Linux",
+      "Postman",
+      "BrasilAPI",
+      "PagHiper",
+      "Zoho Bigin"
+    ],
     span: "md:col-span-2",
   },
 ];
@@ -198,30 +227,34 @@ export const projects: Project[] = [
 
 export const certifications = [
   {
+    name: "Hackers do Bem",
+    issuer: "Softex / MCTI",
+    items: [
+      "DevSecOps",
+      "Segurança Cibernética",
+      "Linux",
+      "Redes",
+      "Pentest",
+    ],
+  },
+  {
     name: "Cisco Networking Academy",
     issuer: "Cisco",
     items: [
       "Introduction to Cybersecurity",
       "Network Defense",
       "CCNA: Introduction to Networks",
+      "Endpoint Security",
     ],
   },
   {
-    name: "Hackers do Bem",
-    issuer: "Softex / MCTI",
-    items: [
-      "Fundamentos de Segurança Cibernética",
-      "Nivelamento em Redes e Linux",
-      "DevSecOps",
-    ],
-  },
-  {
-    name: "Formações Alura",
+    name: "Alura",
     issuer: "Alura",
     items: [
       "AppSec",
-      "Java Orientado a Objetos",
+      "Java",
       "Git e GitHub",
+      "Spring Boot",
       "Arquitetura de Computadores",
     ],
   },
